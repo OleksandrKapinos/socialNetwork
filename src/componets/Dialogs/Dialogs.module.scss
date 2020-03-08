@@ -1,0 +1,14 @@
+.dialogs {
+  display: grid;
+  grid-auto-columns: 2fr 10fr;
+  grid-template-areas: 'items messages' 'textbox textbox';
+}
+.dialogs__items {
+  padding: 40px;
+  grid-area: items;
+}
+
+.messages {
+  padding: 40px;
+  grid-area: messages;
+}
